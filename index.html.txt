@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Soccer Drone Lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+            background-color: #eaf6ff;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 1.1em;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 25px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #1e90ff;
+            margin-top: 0;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            background-color: #f2f9ff;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature span {
+            font-size: 40px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #ff4d4d;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>⚽ Soccer Drone Lab</h1>
+    <p>來自未來的智慧足球訓練無人機</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🤖 關於我們</h2>
+        <p>
+            Soccer Drone Lab 是一個結合 <strong>AI 無人機</strong> 與 <strong>足球訓練</strong> 的創新平台，
+            幫助球員用更有趣、更有效率的方式提升技術。
+        </p>
+        <a class="btn" href="#">了解更多</a>
+    </div>
+
+    <div class="card">
+        <h2>🚀 功能特色</h2>
+        <div class="features">
+            <div class="feature">
+                <span>📡</span>
+                <h3>智慧追蹤</h3>
+                <p>無人機自動追蹤球員與足球</p>
+            </div>
+            <div class="feature">
+                <span>⚽</span>
+                <h3>射門分析</h3>
+                <p>即時分析射門角度與速度</p>
+            </div>
+            <div class="feature">
+                <span>🎮</span>
+                <h3>遊戲化訓練</h3>
+                <p>像玩遊戲一樣練足球</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📬 聯絡我們</h2>
+        <p>Email：soccerdrone@futurelab.com</p>
+        <p>Phone：0900-123-456</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Soccer Drone Lab
+</footer>
+
+</body>
+</html>
